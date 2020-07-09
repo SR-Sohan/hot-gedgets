@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+.container{
+    margin-bottom: 100px;
+}
+.my-btn{
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+
+.carousel-indicators  li{
+    width: 16px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #CECECE;
+}
+.carousel-indicators .active{
+    width: 50px;
+    height: 12px;
+    border-radius: 25px;
+    background-color: #FFAF2B;
+}
+.cat-head{
+    margin-bottom: 50px;
+}
+.cat-head h6{
+    color: #FF9D00;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    border-top: none;
+    background-color: #ffffff;
+}
+.categories-head{
+    margin-bottom: 50px;
+    position: relative;
+}
+.categories-head::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to left, #FF9C35 0%, #FFD019 100%);
+    left: 46%;
+    bottom: -15px;
+    border-radius: 25px;
+}
+.single-cart{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    background: #fff;
+    width: 280px;
+    height: 315px;
+}
